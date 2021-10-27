@@ -4,8 +4,8 @@ from time import sleep
 # include your country code and no spaces
 # phone = 'YOUR_PHONE_HERE'
 
-# open whatsapp web +50496047044  +50496672751  +5218117877078 +50433061272 +50494612026  +50496742099 +50431771770 +50496476366 +50432269370 +50499159502
-val = input("Enter your value: ")
+# open whatsapp web input ej: +(location id)# , +50465365456 , 504 = location id : 65365456 = phone number
+val = input("Enter your phone number(ej: +50465365456 , +504 = location id : 65365456 = phone number): ")
 print(val)
 ruta = "https://web.whatsapp.com/send?phone="
 res=ruta+val;
